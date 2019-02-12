@@ -11,6 +11,7 @@
         <action
                 android:id="@+id/action_page2"
                 app:destination="@id/page2Fragment" />
+        <action android:id="@+id/action_page1Fragment_to_demoFragment" app:destination="@id/demoFragment"/>
     </fragment>
 
     <fragment
@@ -25,6 +26,10 @@
                 android:id="@+id/action_page3"
                 app:destination="@id/nav_graph_page3" />
     </fragment>
+
+
+    <fragment android:id="@+id/demoFragment" android:name="wor.navapplication2.DemoFragment"
+              android:label="DemoFragment"/>
 
     <navigation
             android:id="@+id/nav_graph_page3"
