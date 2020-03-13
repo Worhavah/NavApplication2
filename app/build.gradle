@@ -38,7 +38,7 @@ android {
         release {
             storeFile file("123123.keystore")
             storePassword "123123"
-            keyAlias "123123"
+            keyAlias "key0"
             keyPassword "123123"
         }
     }
