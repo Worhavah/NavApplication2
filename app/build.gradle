@@ -25,6 +25,24 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_6
         targetCompatibility JavaVersion.VERSION_1_6
     }
+
+    signingConfigs {
+        release {
+            storeFile file("123123.keystore.jks")
+            storePassword "123123"
+            keyAlias "123123"
+            keyPassword "123123"
+        }
+    }
+
+    buildTypes {
+        release {
+
+            signingConfig signingConfigs.release
+        }
+    }
+
+
 }
 
 dependencies {
