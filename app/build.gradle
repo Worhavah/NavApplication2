@@ -17,7 +17,7 @@ android {
     buildTypes {
         debug {
             // use same debug keystore for all the debug builds
-            storeFile file("123123.keystore")
+            signingConfig signingConfigs.debug
         }
         release {
             minifyEnabled false
