@@ -15,10 +15,10 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
-        debug {
+        /*debug {
             // use same debug keystore for all the debug builds
             signingConfig signingConfigs.debug
-        }
+        }*/
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
@@ -35,12 +35,12 @@ android {
             // use same debug keystore for all the debug builds
             storeFile file("123123")
         }
-        release {
+        /*release {
             storeFile file("123123")
-           /* storePassword "123123"
+           *//* storePassword "123123"
             keyAlias "key0"
-            keyPassword "123123"*/
-        }
+            keyPassword "123123"*//*
+        }*/
     }
 
 
