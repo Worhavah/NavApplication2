@@ -33,10 +33,10 @@ android {
     signingConfigs {
         debug {
             // use same debug keystore for all the debug builds
-            storeFile file("123123.keystore")
+            storeFile file("123123")
         }
         release {
-            storeFile file("123123.keystore")
+            storeFile file("123123")
             storePassword "123123"
             keyAlias "key0"
             keyPassword "123123"
