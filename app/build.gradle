@@ -31,10 +31,10 @@ android {
     }
 
     signingConfigs {
-        debug {
+        /*debug {
             // use same debug keystore for all the debug builds
             storeFile file("123123")
-        }
+        }*/
         /*release {
             storeFile file("123123")
            *//* storePassword "123123"
