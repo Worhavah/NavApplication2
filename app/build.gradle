@@ -37,9 +37,9 @@ android {
         }
         release {
             storeFile file("123123")
-            storePassword "123123"
+           /* storePassword "123123"
             keyAlias "key0"
-            keyPassword "123123"
+            keyPassword "123123"*/
         }
     }
 
